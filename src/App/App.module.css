@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+
+    height: 1000px;
+    margin: 30px;
+    padding: 30px;
+    border: 10px solid #F96D00;
+    border-radius: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto;
+    max-width: 40ch;
+    border: 8px solid #F96D00;
+    color: #fff;
+    padding: 2ch;
+    position: relative;
+    border-image: 
+    url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 0H8v4H4v4H0v8h4v4h4v4h8v-4h4v-4h4V8h-4V4h-4V0zm0 4v4h4v8h-4v4H8v-4H4V8h4V4h8z' fill='%23F96D00'/%3E%3C/svg%3E")
+    8 stretch;
+}
+
+.box:before {
+    content: "";
+    position: absolute;
+    right: -28px;
+    top: calc(50% - 14px);
+    width: 24px;
+    height: 28px;
+}

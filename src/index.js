@@ -7,7 +7,7 @@ import './index.css';
 export const theme = {
   black: 'black',
   white: 'white',
-  accent: 'aqua',
+  accent: 'goldenrod;',
 };
 
 ReactDOM.createRoot(document.getElementById('root')).render(
